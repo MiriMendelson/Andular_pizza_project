@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+h1{
+    font-size: 50px;
+}
+h3{
+    font-size: 60px;
+    font-weight: bold;
+    
+}
+*{
+    text-align: center;
+    /* justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif; */
+}
+body{
+    background-image: url("assets/7.jpg");
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: 100% auto;
+    background-position: right top;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }

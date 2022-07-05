@@ -1,0 +1,15 @@
+<form (ngSubmit)="Finish()">
+  <br><br><br>
+  <input type="text" class="form-group" [(ngModel)]="newOrder.id" placeholder="id" name="id">
+  <br>
+  <input type="text" class="form-group" [(ngModel)]="newOrder.name" placeholder="name" name="name">
+  <br>
+  <input type="text" class="form-group" [(ngModel)]="newOrder.cc" placeholder="credit card" name="cc">
+  <br>
+  <input type="text" class="form-group" [(ngModel)]="newOrder.address" placeholder="address" name="address">
+  <br>
+  <div>order number: {{newOrder.orderNumber}}</div>  <br>
+  <div>price: {{payment}}</div>
+  <input [disabled]= 'newOrder.name ==  null  || newOrder.id.length !=9 || newOrder.cc.length !=16 ||newOrder.address ==  null  ' class="btn btn-warning" type="submit">
+</form>
+

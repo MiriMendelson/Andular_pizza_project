@@ -1,0 +1,13 @@
+h1{
+    background-color: rgba(0, 0, 0, 0.603);
+    color: crimson;
+    font-weight: bold;
+    padding: 30px;
+}
+*{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    text-justify: inter-cluster;
+}

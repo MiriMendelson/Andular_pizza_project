@@ -1,0 +1,10 @@
+<h1> {{ProductDetails.name}} </h1>
+<h2> {{ProductDetails.price | currency:" NIS "}} </h2>
+<h2> {{ProductDetails.id}} </h2>
+<img src="assets/{{ProductDetails.imgURL}}" alt="cant acses this photo">
+
+
+<br>
+
+
+<button (click)="addToCart()">ADD TO CART</button>

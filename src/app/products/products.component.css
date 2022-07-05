@@ -1,0 +1,18 @@
+img{
+    width: 200px;
+    border-width:15px;
+    border-color: rgb(211, 31, 31);
+    border-style: solid;
+    border-radius: 30px;
+}
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(240, 219, 205);
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+button{
+    color: rgb(211, 31, 31);
+    font-weight: bold;
+}

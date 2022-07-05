@@ -1,0 +1,22 @@
+
+h1{
+    font-size: 120px;
+    margin: 30px;
+    padding-top: 50px;
+    color: rgb(211, 31, 31);
+    font-weight: bold;
+}
+h3{
+    color: rgb(255, 230, 1);
+}
+#see{
+    /* position: absolute; */
+    top:70%;
+    background-color:#0a0a23;
+    color: #fff;
+    border:none;
+    border-radius:10px;
+    width: 330px;
+    padding: 10px;
+}
+
